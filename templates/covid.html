@@ -1,0 +1,30 @@
+{% include "header.html" %}
+<body>
+            <div class="row">
+
+               <div class="col-lg-6">
+                    <form class="details-form"   action="{{ url_for('addrec') }}" method="POST">
+                        <h3>Enter your details</h3><br>
+                        Aadhar no:<br>
+                        <input type="text" name="aadhar" autocomplete="off" required minlength="5" placeholder="Enter 5 digit aadhar no"/></br><br>
+
+                        Name:<br>
+                        <input type="text" name="name" autocomplete="off" required /></br><br>
+
+                        Age:<br>
+                        <input type="text" name="age" autocomplete="off" required /></br><br>
+
+                        No.of doses taken :<br>
+                        <input type="number" name="doses" required min="0" max="3" aria-autocomplete="" aria-placeholder="1 for 1st dose" /></br><br>
+
+
+                        <input class="btn btn-info btn-light" type="submit" value="SUBMIT" />
+                        <input class="btn btn-info btn-light" type="reset" value="REFRESH">
+                    </form>
+               </div>
+               <div class="col-lg-6">
+                   <img src="static/covid-19-vaccine-thumbsup-removebg-preview.png" width="500px" height="500px">
+               </div>
+            </div>
+</body>
+{% include "footer.html" %}

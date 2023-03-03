@@ -1,0 +1,37 @@
+{% include "header.html" %}
+<body>
+    <div class="col-lg-9">
+        <style>
+           table{
+           border: 2px solid white;
+           border-collapse: collapse;
+           color white;}
+           th, td {
+              background-color: #04AA6D;
+              color: white;
+              }
+        </style>
+        <body>
+            <table class="table table-bordered">
+                <caption>List of users</caption>
+                <thead>
+                <tr>
+                    <th scope="col">Aadhar Number</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Doses</th>
+                </tr>
+                </thead>
+                {% for i in range(count) %}
+                <tr>
+                    <td>{{ result1[i] }}</td>
+                    <td>{{ result2[i] }}</td>
+                    <td>{{ result3[i] }}</td>
+                    <td>{{ result4[i] }}</td>
+                </tr>
+                {% endfor %}
+
+            </table><br><br>
+        <h2><a href="/" class="btn btn-info btn-dark" role="button">Home page</a></h2>
+</body>
+{% include "footer.html" %}
