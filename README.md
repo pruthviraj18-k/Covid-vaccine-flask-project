@@ -1,6 +1,10 @@
 # Covid-vaccine-flask-project
 
-https://github.com/pruthviraj18-k/Covid-vaccine-flask-project/assets/126873706/f8b3678c-78ee-4195-a99d-4311c3767a6a
+
+
+https://github.com/pruthviraj18-k/Covid-vaccine-flask-project/assets/126873706/b79ad033-3dfa-406d-a2af-33b50e0c0bb2
+
+
 
 Project Overview:
 
