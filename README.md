@@ -25,3 +25,7 @@ Once a user successfully logs in, they are redirected to a page where their stor
 The application retrieves the relevant information from the database based on the user's credentials.
 
 This project is implemeted with the basic knowlegde of Python, SQLite3, and Flask framework. Also HTML and CSS and Boostrap to design the user interface for registration and login pages.
+
+https://github.com/pruthviraj18-k/Covid-vaccine-flask-project/assets/126873706/f8b3678c-78ee-4195-a99d-4311c3767a6a
+
+
